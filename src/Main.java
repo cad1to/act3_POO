@@ -12,7 +12,7 @@ public static void main(String args[]) {
     do {
         System.out.println("===== TV interfaz =====\n" +
                 "1. Turn on\n" +
-                "2. Turn off\n" +
+                "2. Turn of\n" +
                 "3. setChannel\n" +
                 "4. channelUp\n" +
                 "5. channelDown\n" +
