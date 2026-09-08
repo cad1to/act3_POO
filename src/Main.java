@@ -17,7 +17,8 @@ public static void main(String args[]) {
                 "4. channelUp\n" +
                 "5. channelDown\n" +
                 "6. volumeUp\n" +
-                "7. volumeDown\n");
+                "7. volumeDown\n" +
+                "0. Salir\n");
         op = act.nextInt();
         switch (op) {
             case 1:
@@ -43,11 +44,13 @@ public static void main(String args[]) {
             case 7:
                 tv1.volumenDown();
                 break;
+            case 0:
+                System.out.println("Saliendo...");
+                break;
             default:
                 System.out.println("Coincidencia no encontrada");
         }
 
     }while (op != 0);
-    System.out.println("Saliendo...");
     }
 }
